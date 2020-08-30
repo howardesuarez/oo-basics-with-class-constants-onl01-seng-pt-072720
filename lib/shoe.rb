@@ -16,7 +16,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.any? { |b| b == brand }
+    BRANDS << brand 
   end
     
 
